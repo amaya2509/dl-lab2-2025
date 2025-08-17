@@ -1,0 +1,10 @@
+i. What happens when the number of hidden nodes increase?
+
+Small number of hidden units (1, 2): The accuracy is relatively low (around 67%).
+Increasing hidden units (3, 4, 5): As the number of hidden units increases to 3, 4, and 5, the accuracy significantly improves (to over 90%).
+Large number of hidden units (20, 50, 60, 70): With a large number of hidden units, the accuracy remains high (around 90%). However, it doesn't continue to increase significantly compared to having 3-5 hidden units.
+
+
+Ii. Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+Increasing the number of hidden nodes initially improves accuracy by allowing the model to learn more complex patterns. However, beyond a certain point, adding more hidden nodes can lead to diminishing returns or potentially overfitting, where the model performs well on the training data but might not generalize as well to unseen data. 
